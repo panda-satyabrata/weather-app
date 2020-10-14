@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,400,500,600,700");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background-color: tomato;
+  color: #ffffff;
+  /* background: url("./images/signup_form_bg.png");
+    background-repeat: no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+.header-section {
+  height: 80px;
+  margin-top: 24px;
+  padding: 0 40px;
+}
+
+.header-section-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header-name {
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header-units {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn-units {
+  color: #ffffff;
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-units:focus {
+  outline: 0;
+}
+
+.span-units {
+  font-size: 32px;
+  font-weight: 100;
+  cursor: default;
+}
+
+.input-section-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.input-form {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.input-form-text {
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: auto 0 auto 12px;
+  font-size: 18px;
+  color: #ffffff;
+  margin-left: 8px;
+}
+
+.input-form-text::placeholder {
+  padding: auto 0 auto 12px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.input-form-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.details-section-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
